@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, Calendar, History, Info, Menu, X, MapPin } from 'lucide-react';
+import { Home, Calendar, History, Menu, X, MapPin } from 'lucide-react';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -11,7 +11,6 @@ const Navbar = () => {
         { name: 'Calendar', path: '/calendar', icon: <Calendar size={20} /> },
         { name: 'History', path: '/history', icon: <History size={20} /> },
         { name: 'Events', path: '/events', icon: <MapPin size={20} /> },
-        { name: 'About', path: '/about', icon: <Info size={20} /> },
     ];
 
     return (
